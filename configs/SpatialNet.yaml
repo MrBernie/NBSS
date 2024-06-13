@@ -7,6 +7,14 @@ trainer:
   strategy: auto
   sync_batchnorm: false
   precision: 32
+  logger:
+    class_path: pytorch_lightning.loggers.CometLogger
+    init_args:
+      api_key: FItcqtFxcX4Trzy5wPfDSiC49
+      project_name: SpatialNet
+      experiment_name: spatialnet
+      workspace: mrbernie
+      save_dir: ./comet_logs
 model:
   arch:
     class_path: models.arch.SpatialNet.SpatialNet

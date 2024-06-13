@@ -1,8 +1,8 @@
 data:
   class_path: data_loaders.sms_wsj_plus.SmsWsjPlusDataModule
   init_args:
-    sms_wsj_dir: ~/datasets/sms_wsj/
-    rir_dir: ~/datasets/SMS_WSJ_Plus_rirs/
+    sms_wsj_dir: ./datasets/sms_wsj/
+    rir_dir: ./datasets/SMS_WSJ_Plus_rirs/
     target: direct_path
     datasets: ["train_si284", "cv_dev93", "test_eval92", "test_eval92"]
     audio_time_len: [4.0, 4.0, null, null]
