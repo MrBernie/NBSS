@@ -6,3 +6,4 @@ logs
 .dataset
 *.log
 *.out
+datasets
