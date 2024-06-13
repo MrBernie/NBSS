@@ -19,8 +19,8 @@ model:
   arch:
     class_path: models.arch.SpatialNet.SpatialNet
     init_args:
-      # dim_input: 12
-      # dim_output: 4
+      dim_input: 12
+      dim_output: 4
       num_layers: 8 # 12 for large
       encoder_kernel_size: 5
       dim_hidden: 96 # 192 for large
